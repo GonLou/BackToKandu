@@ -4,7 +4,7 @@ using System.Collections;
 public class CharacterController : MonoBehaviour {
 
     public float inputDelay = 0.1f;
-    public float forwardVelocity = 12;
+    public float forwardVelocity = 6;
     public float rotateVelocity = 100;
 
     Quaternion targetRotation; //just to hold the next position to turn to

@@ -17,7 +17,7 @@ public class TestButton : MonoBehaviour {
 
         // show help
         var help = GameObject.Find("Help").transform;
-        help.position = new Vector3(600, help.position.y, 0);
+        help.position = new Vector3(400, help.position.y, 0);
     }
 	
 	public void Quit () 
@@ -29,7 +29,7 @@ public class TestButton : MonoBehaviour {
     {
         // show credits
         var credits = GameObject.Find("Cred").transform;
-        credits.position = new Vector3(600, credits.position.y, 0);
+        credits.position = new Vector3(400, credits.position.y, 0);
 
         // hide help
         var help = GameObject.Find("Help").transform;
